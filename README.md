@@ -6,13 +6,13 @@ Backend proyect with nodejs, nodejs Express and json database
 
 ## Installation 🔧
 
-npm init (create the proyect)
 ![image](https://user-images.githubusercontent.com/88061350/180027373-53fa5b87-44e7-4981-b62b-233282004f21.png)
 
-npm i express (framework to https)
-npm i body-parser (request to json)
-npm i dotenv (environment variables)
-npm i nodemon --save -dev (only for local, we need to refresh the server automatically)
+### npm init (create the proyect)
+### npm i express (framework to https)
+### npm i body-parser (request to json)
+### npm i dotenv (environment variables)
+### npm i nodemon --save -dev (only for local, we need to refresh the server automatically)
 
 
 ## Tree proyect 🗃️
@@ -25,10 +25,10 @@ node index.js
 
 ## Deploy backend with heroku CLI 🚀
 
-$ heroku login
-$ cd backend_Next
-$ git init
-$ git add .
-$ git commit -m "description"
-$ heroku git:remote -a blog-dog
-$ git push heroku main
+### $ heroku login
+### $ cd backend_Next
+### $ git init
+### $ git add .
+### $ git commit -m "description"
+### $ heroku git:remote -a blog-dog
+### $ git push heroku main
