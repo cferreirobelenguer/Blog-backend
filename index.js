@@ -28,7 +28,7 @@ app.use((req, res, next) => {
 const rutas=require('./routes/route')
 app.use(rutas);
 
-//server is listens with the local port 6300 and the localhost
+//server listens with the local port 6300 and the localhost
 app.listen(port,'0.0.0.0',()=>{
     console.log("nodejs server is running on "+port);
 });
